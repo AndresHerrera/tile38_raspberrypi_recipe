@@ -10,14 +10,21 @@ sudo apt install docker.io
 ```console
 sudo docker pull kirkryan/tile38
 ```
+
 ### 3. Launch tile38 server
 ```console
 sudo docker run -p 9851:9851 kirkryan/tile38
 ```
+
+![tile38 installed](s1.png)
+
+
 ### 4. tile38 cli for testing:
 ```console
 sudo docker run --net=host -it kirkryan/tile38 tile38-cli
 ```
+
+![tile38 cli](s2.png)
 
 ### Python client (pyle38) :  https://github.com/iwpnd/pyle38
 - Install pyle38 
@@ -48,3 +55,12 @@ asyncio.run(main())
 ```console
 python test.py
 ```
+
+![tile38 python client](s3.png)
+
+## Tested on 
+
+- Raspberry Pi B+ model 1.2 / https://www.raspberrypi.com/news/introducing-raspberry-pi-model-b-plus/
+
+![raspi hardware](s4.png)
+
