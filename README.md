@@ -6,7 +6,7 @@
 ```console
 sudo apt install docker.io
 ```
-### 2. Install tile38 docker
+### 2. Install tile38 from docker image: ( https://hub.docker.com/r/kirkryan/tile38 )
 ```console
 sudo docker pull kirkryan/tile38
 ```
@@ -26,7 +26,7 @@ sudo docker run --net=host -it kirkryan/tile38 tile38-cli
 
 ![tile38 cli](s2.png)
 
-### Python client (pyle38) :  https://github.com/iwpnd/pyle38
+### Python client (pyle38) : ( https://github.com/iwpnd/pyle38 )
 - Install pyle38 
 ```console
 pip install pyle38
